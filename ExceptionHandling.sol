@@ -22,7 +22,7 @@ contract RequireExample {
 contract AssertExample {
     // Assert ensures that internal declared states are not violated
 
-    // uint64 can store a maximum of 18eth, sending abpve will throw
+    // uint64 can store a maximum of 18eth, sending above will throw
     mapping(address => uint64) public balancedSent;
 
     function getBalance() public view returns (uint256) {
