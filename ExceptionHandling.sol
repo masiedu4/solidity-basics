@@ -1,4 +1,4 @@
-pragma solidity ^0.5.11;
+pragma solidity ^ 0.5.11;
 
 contract RequireExample {
     mapping(address => uint256) public balancedSent;
